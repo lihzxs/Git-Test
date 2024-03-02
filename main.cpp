@@ -6,6 +6,11 @@ void swap(int &a,int &b)
     a = b;
     b = temp;
 }
+
+void print()
+{
+    cout<<"Print"<<endl;
+}
 int main()
 {
     cout << "Hello World!" << endl;
